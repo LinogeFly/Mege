@@ -20,7 +20,7 @@ function App() {
     }, [location]);
 
     return (
-        <div className={styles.app}>
+        <div className="container text-center">
             <nav className="mb-4">
                 <Navigation />
             </nav>

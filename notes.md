@@ -1,10 +1,13 @@
-# Notes
+# Prototype
+
+To-do list of things to try and test in prototype version.
 
 ## To-do
 
+- [ ] Make design mockups.
 - [ ] Make sure unhandled exceptions in front-end are logged.
 - [ ] Make sure front-end exceptions have call stack logged.
-- [ ] Look into browser caching, so images are not requested by the browser all the time.
+- [ ] Look into browser caching. Images don't need to be requested by the browser all the time and can be cached.
 - [ ] Show "loading..." text with a delay, not right away.
 - [ ] Wait for image to be loaded before removing "Loading..." on the meme template page.
 - [ ] Send "status" or "success" property in response from the back-end instead of 404 for the cases when meme template is not found.
@@ -129,10 +132,26 @@ Feature toggles:
 
 - [x] Disable new users registration. Can be a configuration parameter, for example `Feature:DisableRegistration`.
 
-## Technical notes
+## UI
 
-To create migrations, run this command from Mege.Web folder:
+Websites for inspiration:
 
-```bash
-dotnet ef migrations add InitialCreate --project ../Mege.Infrastructure --output-dir "Data/SQLite/Migrations"
-```
+- https://github.com/ (login form)
+- https://discord.com/ (pop-up menu, color palette)
+- https://stackoverflow.com/ (color palette, dropdown menus with tilde)
+- https://css-tricks.com/ (tabs that you can toggle on and off)
+- Google Spreadsheet mobile app (nice grey colors and buttons)
+- Azure DevOps:
+  - White navbar menu
+  - "More" three dots buttons
+- https://jsfiddle.net/ (settings menu)
+- https://dribbble.com/tags/text_editing
+- https://www.pinterest.com/search/pins/?q=rich%20text%20editor%20ui
+- Syncthing (color palette, buttons, navbar)
+- https://www.twitch.tv/ (dropdown menu shadow)
+
+### Home page
+
+### Meme Template page
+
+### Log-in page
