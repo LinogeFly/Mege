@@ -1,0 +1,33 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mege.Web", "Mege.Web\Mege.Web.csproj", "{60B81765-61CE-454C-9626-C9EBEF02AF24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mege.Core", "Mege.Core\Mege.Core.csproj", "{E0761F9C-45F1-44FF-BD08-969520ADF8F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mege.Infrastructure", "Mege.Infrastructure\Mege.Infrastructure.csproj", "{37051B53-9E7F-4434-B9A4-6E23AACE9D96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60B81765-61CE-454C-9626-C9EBEF02AF24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B81765-61CE-454C-9626-C9EBEF02AF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B81765-61CE-454C-9626-C9EBEF02AF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B81765-61CE-454C-9626-C9EBEF02AF24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0761F9C-45F1-44FF-BD08-969520ADF8F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0761F9C-45F1-44FF-BD08-969520ADF8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0761F9C-45F1-44FF-BD08-969520ADF8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0761F9C-45F1-44FF-BD08-969520ADF8F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37051B53-9E7F-4434-B9A4-6E23AACE9D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37051B53-9E7F-4434-B9A4-6E23AACE9D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37051B53-9E7F-4434-B9A4-6E23AACE9D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37051B53-9E7F-4434-B9A4-6E23AACE9D96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
